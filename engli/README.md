@@ -40,7 +40,30 @@ cd translate && python3 conditions.py "x is 5. If x is greater than zero then in
 # Context Conditions
 
  "If it rains then take an umbrella else enjoy the walk."
+ ```python
+ weather = 'rain'
+ temperature = 35
+ umbrella = False
+ drink = 'None'
+ clothing = 'None'
+ if (weather=='rain'):
+ 	umbrella = True
+ else:
+ 	umbrella = False
+```
+
 "If it is hot then take a water bottle else take a jacket."
+```python
+ weather = 'rain'
+ temperature = 35
+ umbrella = False
+ drink = 'None'
+ clothing = 'None'
+ if (temperature > 35):
+ 	drink = 'water'
+ else:
+ 	clothing = 'jacket'
+```
 
 ```python
 cd translate && python3 contextconditions.py "If it rains then take an umbrella else enjoy the walk." "If it is hot then take a water bottle else take a jacket."

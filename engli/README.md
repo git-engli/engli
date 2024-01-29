@@ -3,21 +3,6 @@
 Engli is a free and open-source programming language developed and maintained by Predict Expert AI. It is a verbose syntactical superset of Python, and adds english-like syntax to the language. 
 It included a dictionary of 3000 most used english words, as extension of Oxford 3000.
 
-# Generator for prime numbers
-
-```python
-def primes():
-    x = 1
-    while True:
-        was_divided = False
-        x += 1
-        for y in xrange(2, x):
-            if x % y == 0:
-                was_divided = True
-        
-        if not was_divided:
-            yield x
-```
 
 ### Engli
 

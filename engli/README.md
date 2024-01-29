@@ -300,10 +300,10 @@ Add more types of sentences: The current program mainly handles conditional sent
 
 Refactor variables initialization in test_cases1 function: Currently, we are repeating the initialization of variables for every sentence, which is not optimal. We could refactor this.
 
-FAQs
+# FAQs
 How do I add more phrases to be translated?
 
-You can add more phrases to the english_to_python dictionary, with the English phrase as the key and the equivalent Python code as the value.
+You can add more phrases to the map.py or engli2python.py or in contextconditions in engli_to_python dictionary, with the English phrase as the key and the equivalent Python code as the value.
 Can I customize the starting context?
 
 Yes, the context dictionary in the test_conditions1 function can be modified to set the initial values of each variable to desired states.

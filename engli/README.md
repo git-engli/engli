@@ -7,11 +7,31 @@ It included a dictionary of 3000 most used english words, as extension of Oxford
 ### Engli
 
 
-## Conditions
+# Conditions
 
 "x is 5. If x is greater than zero then increment x else print zero.", 
+```python
+ if (5 > zero):
+     x += 1 
+ else:
+     print zero
+```
 "y is 10. If y is less than x then decrement y else print x.",
+```python
+ if (10 < 5):
+     y -= 1 
+ else:
+     print x
+```
 "z is x plus y. If z is equal to 15 then print z else print y."
+```python
+ if (5 + 10 == 15):
+     print z 
+ else:
+     print y
+```
+
+
 
 ```python
 cd translate && python3 conditions.py "x is 5. If x is greater than zero then increment x else print zero." "y is 10. If y is less than x then decrement y else print x." "z is x plus y. If z is equal to 15 then print z else print y."

@@ -1,0 +1,29 @@
+from unittest import TestCase
+
+
+def excepted():
+    raise NotImplementedError
+
+class MyTests(TestCase):
+    def test_1(self):
+        x = [1, 2, 3]
+        assert that x is in [1, 2, 3, 4]
+        assert that x contains [1, 2] in order
+        assert that x contains 3
+
+
+    def test_2(self):
+        assert that 4 is greater than 3
+        x = 4
+        assert that x is greater than or equal to 2
+        assert that x is equal to 4
+        assert that x is between 3 and 10
+
+    def test_3(self):
+        x = object()
+        y = x
+        assert that x is y
+        assert that excepted raises NotImplementedError
+        assert raises NotImplementedError:
+            print 4
+            excepted()

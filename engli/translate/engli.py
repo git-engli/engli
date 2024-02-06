@@ -1,9 +1,9 @@
 import re
 import argparse
 import os
-from functionsmap import functionmap
+from commandsmap import commandmap
 
-code_map = functionmap
+code_map = commandmap
 
 
 def execute_command(command_template):

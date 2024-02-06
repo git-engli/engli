@@ -1,2 +1,2 @@
-echo 'alias engli="python3 ./engli/engli/translate/engli.py"' >> ~/.bashrc
+echo 'alias engli="python3 *{path}*/engli/engli/translate/engli.py"' >> ~/.bashrc
 source ~/.bashrc

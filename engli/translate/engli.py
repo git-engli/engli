@@ -16,7 +16,7 @@ def execute_command(command_template):
 
 
 def command_line_arg(arguments=None):
-    parser = argparse.ArgumentParser(description='Command in your code_map')
+    parser = argparse.ArgumentParser(description='Command in your commandmap')
     parser.add_argument('command', help='command')
     if arguments:
         return vars(parser.parse_args(arguments))

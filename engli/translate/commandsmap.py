@@ -31,7 +31,7 @@ git branch -M main
 git push -u origin main
 ''',
 "delete .git" : r'''rm -fr .git''',
-"push repo" : r'''git push *{source}* *{destination}*''',
+"push repo" : r'''git push {source} {destination}''',
 "push all repo" : r'''git add . 
 git commit -m "autocommit"
 git push {source} {destination}''',

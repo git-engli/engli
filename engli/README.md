@@ -3,9 +3,33 @@
 Engli is a free and open-source programming language developed and maintained by Predict Expert AI. It is a verbose syntactical superset of Python, and adds english-like syntax to the language. 
 It included a dictionary of 3000 most used english words, as extension of Oxford 3000.
 
+# Install
+
+pip3 install -r requirements.txt
+python3 -m spacy download en_core_web_sm
+
 
 ### Engli
 
+# How to contribute?
+
+How do I add more phrases to be translated?
+
+You can add more optimize the maps: 
+promptsmap.py, functionsmap.py, codesmap.py, commandsmap.py
+with the English phrase as the key and the equivalent Python code as the value.
+
+Can I customize the starting context?
+
+Yesin contextconditions in engli_to_python dictionary,
+
+Can I test my own sentences?
+
+Yes, you can modify the sentences list in the test_conditions1 function to include your test sentences.
+
+What other words can be used besides 'if', 'then' and 'else'?
+
+You can add more keywords to the conditional flow within the parse_conditional_statements function. Once added, the mappings need to be handled accordingly.
 
 # Conditions
 
@@ -259,6 +283,7 @@ test_conditions()
 ```
 
 Program Flow
+
 The primary function in this program, parse_conditional_statements, parses a sentence into Python code. It uses the matcher object to find sentences that contain numeric assignments or arithmetic expressions. These are respectively matched using pattern1 and pattern2.
 
 Once a match is found, it is handled based on its type:
@@ -313,7 +338,8 @@ The word "then" is the separator between condition and consequence action.
 The word "else" separates the action for 'if' clause from action when 'if' condition is not met.
 The function test_conditions1 initializes the predefined context and loops over sample sentences. It uses parse_conditional_statements to translate them into Python conditional statements.
 
-Optimizing the Program
+
+## Optimizing the Program
 The script could be optimized in the following ways:
 
 Expand the dictionary mappings: The script currently works with a limited set of hardcoded English phrases and Python code. It could be expanded to accept a wider array of language constructs.
@@ -328,16 +354,4 @@ Add more types of sentences: The current program mainly handles conditional sent
 
 Refactor variables initialization in test_cases1 function: Currently, we are repeating the initialization of variables for every sentence, which is not optimal. We could refactor this.
 
-# FAQs
-How do I add more phrases to be translated?
 
-You can add more phrases to the map.py or engli2python.py or in contextconditions in engli_to_python dictionary, with the English phrase as the key and the equivalent Python code as the value.
-Can I customize the starting context?
-
-Yes, the context dictionary in the test_conditions1 function can be modified to set the initial values of each variable to desired states.
-Can I test my own sentences?
-
-Yes, you can modify the sentences list in the test_conditions1 function to include your test sentences.
-What other words can be used besides 'if', 'then' and 'else'?
-
-You can add more keywords to the conditional flow within the parse_conditional_statements function. Once added, the mappings need to be handled accordingly.

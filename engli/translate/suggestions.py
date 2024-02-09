@@ -3,7 +3,7 @@ import termios
 import tty
 from prettytable import PrettyTable
 from fuzzywuzzy import process
-from engli.engli.translate.promptsmap import suggestionsmap
+from promptsmap import suggestionsmap
 class SuggestionEngine:
     def __init__(self):
         self.phrases = suggestionsmap

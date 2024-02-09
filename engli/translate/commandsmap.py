@@ -34,7 +34,7 @@ git push -u origin main
 "push repo" : r'''git push *{source}* *{destination}*''',
 "push all repo" : r'''git add . 
 git commit -m "autocommit"
-git push *{source}* *{destination}*''',
+git push {source} {destination}''',
 "install python" : r'''sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update

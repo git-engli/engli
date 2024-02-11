@@ -5,15 +5,13 @@ from commandsmap import commandmap
 
 code_map = commandmap
 
-
 def execute_command(command_template):
-    match = re.findall("{(.*?)}", command_template)
+    match = re.findall("{(.*?)}", command_template.lower())
     variables = {}
     for variable in match:
-        variables[variable] = input(f"Enter value for variable {variable}: ")
-    command_interpolated = command_template.format(**variables)
+        variables[variable.lower()] = input(f"Enter value for variable {variable}: ").lower()
+    command_interpolated = command_template.lower().format(**variables)
     os.system(command_interpolated)
-
 
 def command_line_arg(arguments=None):
     parser = argparse.ArgumentParser(description='Command in your commandmap')

@@ -7,9 +7,9 @@ from functionsmap import functionmap
 nlp = spacy.load('en_core_web_sm')
 
 # Create dictionary for mapping English statements to Python code
-CODE_MAP = codemap
+CODE_MAP = functionmap
 
-FUNCTION_MAP = functionmap
+FUNCTION_MAP = functionmap, codemap
 
 def engli_to_python(code):
     """Translates English code into Python code."""

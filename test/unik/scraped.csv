@@ -1,0 +1,640 @@
+0
+"
+
+Broken Links Internal
+
+Broken Links External
+
+Max External Links
+
+Page with External Links
+
+Nofollowed Page
+
+Nofollow Link With Nofollowed Backlinks
+
+Relative Link
+
+Relative Link With Base
+
+Image Links
+
+Non Default Language
+
+Meta Refresh
+
+Header Refresh
+
+External Links to Disallowed URLs
+
+Non Standard Links
+
+Repeated external links
+
+Repeated internal links
+
+Links with Quote Variations
+
+Whitespace in Links
+
+Comma Separated Attributes
+
+Nofollow & Followed Link
+
+Relative Protocol Page
+
+javascript:window.location onchange
+
+javascript:window.open
+
+javascript:onmousedown
+
+javascript:concatenated link
+
+javascript:data-href link
+
+javascript:push-state
+
+
+
+
+
+
+
+
+URLs
+
+Double Slash
+
+Double Slash 2
+
+Double Slash 3
+
+Double Slash 4
+
+Parameter_1_1
+
+Parameter_1_2
+
+Parameter_1_3
+
+Parameter_2_1
+
+Parameter_2_2
+
+Parameter_2_3
+
+Parameter Same Name Diff Value
+
+Parameter Same Name Same Value
+
+Url With Spaces
+
+Url With Trailing Space
+
+Url With Encoded Trailing Space
+
+Url With Trailing Slash
+
+Url Without Trailing Slash
+
+Url With Tracking Parameter
+
+Url Ending With /index.htm
+
+Url With Duplicate Path
+
+Url With Alternative Case
+
+Links to Malformed URLs
+
+Paginated Pages
+
+Unlinked Paginated Pages
+
+Paginated and Noindex Pages
+
+Links to Non-HTML Filetypes
+
+Pages with HREFLANG
+
+Page with HREFLANG Header OK
+
+Page with HREFLANG Header Not OK
+
+Duplicate Page
+
+Duplicate Page
+
+Duplicate Page
+
+Duplicate Page
+
+Url With Session Id
+
+Page URL Length
+
+URL With Fragment
+
+URL with encoded reserved character
+
+URL with encoded un-reserved character
+
+URL with encoded space
+
+URL with encoded ó character
+
+Directory index - blank
+
+Directory index - index.htm
+
+Directory index - default.htm
+
+Directory index - index.html
+
+Directory index - index
+
+Infinite URLs
+
+Relative Base
+
+Four Paths
+
+Five Paths
+
+Six Paths
+
+Seven Paths
+
+Double Path
+
+Triple Path
+
+Multiple Slashes - 200 to 404
+
+Multiple Slashes - 404 to 200
+
+Double Slash Disallowed Start
+
+Double Slash Disallowed Middle
+
+Double Slash Disallowed End
+
+Parameter on Hostname Root
+
+Parameter Removal
+
+URL With Colon
+
+Relative URL With Colon
+
+
+
+
+
+
+Canonical Tags
+
+Canonical Tag With Relative Root
+
+Canonical Tag With Relative Url
+
+Canonical Tag
+
+Canonical Tag Uppercase
+
+Canonical Tag 2
+
+Canonical Tag 3
+
+Canonical Tag 4
+
+Canonical Tag 5
+
+Canonical Tag 6
+
+Canonical Tag 7
+
+Canonical Tag 8
+
+Canonical Tag 9
+
+Canonical Tag 10
+
+Canonical Tag 11
+
+Canonical Tag 12
+
+Canonical Tag 13
+
+Canonical Tag 14
+
+Canonical Tag 15
+
+Canonical Tag 16
+
+Canonical Tag 17
+
+Canonical Tag 18
+
+Canonical Tag 19
+
+Canonical Tag 20
+
+Canonical Tag 21
+
+Canonical Tag 22
+
+Canonical Tag 23
+
+Canonical Tag 24
+
+Canonical Tag 25
+
+Canonical Tag Like Page
+
+Canonical And Duplicate Description
+
+Canonical Tag In Header
+
+Canonical Tag Outside Head
+
+Canonical Tag HTML/Header Conflict
+
+Canonical Tag HTML Conflict
+
+Page With External Canonical
+
+Page Without Canonical Tag
+
+Unlinked_canonical
+
+Canonical Tag/OG:URL Conflict
+
+Canonical Tag with Self Reference
+
+Canonicalised to Disallowed URL
+
+Unlinked Canonical URL in Header
+
+Non-Head Canonical
+
+Non-Head Canonical Link
+
+Non-Head Canonical Link 2
+
+Port :80 = http with no port
+
+Port :443 = http with no port
+
+Port :8080 = http with no port
+
+URL-encoded v non-encoded not canonicalised
+
+URL-encoded v non-encoded not canonicalised icon
+
+Parameter key is case sensitive
+
+Parameter value is case sensitive
+
+URL Fragments are not canonicalised
+
+Different parameter orders are canonicalised
+
+Hostname is case insensitive
+
+Protocol is case insensitive
+
+Path is case sensitive
+
+URI = / is the same as naked domain
+
+Trailing dot is the same as naked domain (extremely uncommon)
+
+
+
+
+
+
+Status Codes
+
+100 HTTP Status
+
+101 HTTP Status
+
+102 HTTP Status
+
+200 HTTP Status
+
+201 HTTP Status
+
+202 HTTP Status
+
+203 HTTP Status
+
+204 HTTP Status
+
+205 HTTP Status
+
+206 HTTP Status
+
+207 HTTP Status
+
+226 HTTP Status
+
+400 HTTP Status
+
+401 HTTP Status
+
+402 HTTP Status
+
+403 HTTP Status
+
+404 HTTP Status
+
+405 HTTP Status
+
+406 HTTP Status
+
+407 HTTP Status
+
+408 HTTP Status
+
+409 HTTP Status
+
+410 HTTP Status
+
+411 HTTP Status
+
+412 HTTP Status
+
+413 HTTP Status
+
+414 HTTP Status
+
+415 HTTP Status
+
+416 HTTP Status
+
+417 HTTP Status
+
+418 HTTP Status
+
+419 HTTP Status
+
+420 HTTP Status
+
+421 HTTP Status
+
+422 HTTP Status
+
+423 HTTP Status
+
+424 HTTP Status
+
+426 HTTP Status
+
+428 HTTP Status
+
+429 HTTP Status
+
+431 HTTP Status
+
+440 HTTP Status
+
+444 HTTP Status
+
+449 HTTP Status
+
+450 HTTP Status
+
+451 HTTP Status
+
+494 HTTP Status
+
+495 HTTP Status
+
+496 HTTP Status
+
+497 HTTP Status
+
+498 HTTP Status
+
+499 HTTP Status
+
+500 HTTP Status
+
+501 HTTP Status
+
+502 HTTP Status
+
+503 HTTP Status
+
+504 HTTP Status
+
+505 HTTP Status
+
+506 HTTP Status
+
+507 HTTP Status
+
+508 HTTP Status
+
+509 HTTP Status
+
+510 HTTP Status
+
+511 HTTP Status
+
+520 HTTP Status
+
+598 HTTP Status
+
+599 HTTP Status
+
+
+
+
+
+
+
+
+Social Tags
+
+Open Graph Tags
+
+Twitter Card Page 1
+
+Twitter Card Page 2
+
+OG Description, Title, Image, No Twitter
+
+Max Twitter Card Description Length
+
+
+
+
+
+
+Content
+
+Custom Text
+
+Error Page
+
+Above Min Content Volume
+
+No H1s
+
+H1 in img
+
+Mult H1s
+
+Page HTML Size (n KB)
+
+Page Content Size (n KB)
+
+Meta content type - text/html
+
+Meta content type - malformed
+
+Word Count - 100 Words
+
+Word Count - Number
+
+Word Count - Hyphenated
+
+Word Count - Symbols
+
+Word Count - Script
+
+Custom extraction text
+
+Multiple titles and descriptions
+
+Title with newline, quote, doublequote and comma characters
+
+Header Content Type Malformed
+
+javascript:window.location onclick
+
+javascript:onclick reveals new element with programmatically added onclick event
+
+javascript:make AJAX call and return data in page
+
+javascript:dynamically inserted text
+
+javascript:dynamically inserted text meta data
+
+javascript:dynamically inserted nofollow
+
+javascript:on load inserted title
+
+javascript:on load inserted canonical URL
+
+javascript:dialog window
+
+javascript:alert box
+
+javascript:ad script
+
+javascript:analytics script
+
+javascript:Rendering test 1
+
+javascript:Rendering test 2
+
+javascript:Rendering test 3
+
+javascript:Rendering test 4
+
+javascript:Rendering test 5
+
+Non-secure Form Fields - Text
+
+Non-secure Form Fields - Email
+
+Non-secure Form Fields - Search
+
+Non-secure Form Fields - Number
+
+Non-secure Form Fields - Tel
+
+Non-secure Form Fields - URL
+
+Non-secure Form Fields - Textarea
+
+Non-secure Form Fields - Password and Credit Cards
+
+
+
+
+
+
+Other
+
+Crawler User Agent
+
+Crawler IP Address
+
+Conflicting Language Tags
+
+Page Load Time
+
+Crawler Request Headers
+
+Expiring Page for Removed Test
+
+Duplicated Body Content 1
+
+Duplicated Body Content 2
+
+String Width in Pixels
+
+Script Tag Contents
+
+NoODP and NoYDir Tags
+
+Page with HSTS Headers
+
+Subdomain
+
+Invalid Subdomain
+
+Crawler Test HTTP/Non-WWW
+
+Crawler Test HTTP
+
+Crawler Test HTTPS
+
+Page linking from web
+
+Page linked from web
+
+Broken HTML - Typo inside head
+
+Broken HTML - Unfinished tag in head
+
+Broken HTML - Non head tag in head
+
+Broken HTML - Link tag in body
+
+Basic Auth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"

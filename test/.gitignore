@@ -1,0 +1,9 @@
+-e env
+__pycache__
+.env
+lib64/
+lib/
+share
+include/
+bin/
+

@@ -112,7 +112,7 @@ cd translate && python3 engli2python.py "make a web app for automatic plant dise
 cd translate && python3 engli2python.py "create web app with rest api to analyse stocks from custom formulas"
 ```
 
-## Suggestions
+## Prompts Suggestions
 
 ```python
 cd translate && python3 suggestions.py 
@@ -134,6 +134,28 @@ cd tests && python3 testengli2python.py
 
 
 # Usage
+
+Build a scraping app:
+
+1. engli "create folder"
+2. engli "enter folder"
+3. engli "create scraping app to track data and store in a database": 
+4. engli "Create a virtual environment"
+5. engli "Install necessary libraries for scraping app in a virtual environement"
+6. engli "Save installed libaries"
+7. engli "Create a ignore file"
+8. engli "Create a script to enter virtual environment":
+9. engli "Enter a virtual environement"
+10. engli "Run a python app"
+or
+engli "Create a script to run a python app":
+engli "Run a bash script to run a python app"
+11. Open new terminal
+12. engli "call scraping app to track from word"
+
+
+
+
 #### Loops
 | Engli | Python Equivalent |
 |:-------:|:-------------------:|

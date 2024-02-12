@@ -105,12 +105,61 @@ if __name__ == "__main__":
 EOF
 ''',
 
-"Install necessary libraries for scraping app": r'''pip3 install flask beautifulsoup4 requests''',
-
+"enter folder": r'''echo RUN THIS IN YOUR TERMINAL: 
+echo cd @?folder_name?@''',
 
 "run python app": r"python3 @?appname?@.py",
 
-"call scraping app to track word": r"curl http://127.0.0.1:5000/api/scrape?word=@?word?@",
+"call scraping app to track from word": r"curl http://127.0.0.1:5000/api/scrape?word=@?word?@",
+
+
+"Create a virtual environment": r'''python3 -m venv @?env_name?@''',
+
+"Create a script to enter virtual environment":
+r'''cat > @?script_name?@.sh <<'EOF'
+#!/bin/bash
+source "./bin/activate"
+EOF
+''',
+
+"Enter a virtual environement": r'''echo RUN THIS IN YOUR TERMINAL:
+echo source @?script_name?@.sh ''',
+
+"Create a ignore file": r'''echo -e 'env\n__pycache__\n.env\ninclude/\nlib64/\nlib/\nshare\n@?folder_to_ignore?@/\nbin/\n' > .gitignore''',
+
+
+"Create a bash script to run a python app":
+r'''cat > @?script_name?@.sh <<'EOF'
+python3 @?app_name?@.py
+EOF
+''',
+
+"Run a bash script to run a python app":
+r'''echo RUN THIS IN YOUR TERMINAL:
+echo sh @?script_name?@.sh''',
+
+
+"Install necessary libraries for scraping app in a virtual environement": r'''bash -c 'cd ./@?env_name?@/ && source "bin/activate" && pip3 install fuzzywuzzy pandas flask beautifulsoup4 requests' ''',
+
+"Save installed libaries": r'''pip freeze > requirements.txt''',
+
+
+
+
+
+"Create a new screen": r'''screen -dmS  @?screename?@ ''',
+
+
+"Create a new screen and enter environment": r'''screen -dmS @?screen_name?@ bash -c 'cd ./@?env_name?@/ ; exec sh' ''',
+
+"Show all screens": r'''screen -ls''',
+
+"Enter a screen": r'''screen -r @?screen_name?@''',
+
+
+
+#"Activate virtual environement": r'''bash -c "source ./@?env_name?@/bin/activate"''',
+
 
 "Git clone repository": r'''git clone @?repository_url?@''',
 

@@ -7,12 +7,19 @@ from fuzzywuzzy import process
 # Make the dictionary keys case-insensitive
 code_map = {k.lower(): v for k, v in commandmap.items()}
 
+
 def execute_command(command_template):
-    match = re.findall("{(.*?)}", command_template)
+    # Use a regular expression to extract all values between @? and ?@
+    match = re.findall("@\?(.*?)\?@", command_template)
     variables = {}
     for variable in match:
+        # For each matching variable, ask the user for its value
         variables[variable.lower()] = input(f"Enter value for variable {variable}: ")
-    command_interpolated = command_template.format(**variables)
+    
+    # Replace all instances of the variables in the command template with their user-provided values
+    command_interpolated = re.sub("@\?(.*?)\?@", lambda m: variables[m.group(1).lower()], command_template)
+    
+    # Execute the interpolated command
     os.system(command_interpolated)
 
 def command_line_arg(arguments=None):

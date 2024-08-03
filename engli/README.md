@@ -5,8 +5,7 @@ It included a dictionary of 3000 most used english words, as extension of Oxford
 
 # Install
 
-pip3 install -r requirements.txt
-python3 -m spacy download en_core_web_sm
+pip3 install fuzzywuzzy spacy && python3 -m spacy download en_core_web_sm
 
 
 ### Engli
